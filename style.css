@@ -1,0 +1,81 @@
+body {
+  background: #000;
+  color: #dedede;
+}
+.title {
+  /* text-align: left; */
+  color: #aaaaaa;
+  margin: 0;
+  width: 30%;
+}
+.media {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 60%;
+}
+#bio-img {
+  margin-top: 0;
+  width: 42%
+}
+#bio-text {
+  padding-bottom: 10%;
+  text-align: left;
+}
+#contacts-img {
+  width: 42%;
+}
+#contacts-p {
+  text-align: center;
+}
+.links-pages {
+  overflow: hidden;
+  width: 100%;
+  /* text-align: center; */
+  margin-top: 2%;
+}
+.links-web-title {
+  padding: 1%;
+  padding-right: 32%;
+  /* text-align: left; */
+  color: #dedede;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+.links-web-item {
+  padding : 2%;
+  color: #dedede;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+.links-web-item:hover{
+  opacity : 0.7;
+}
+.active{
+  opacity : 0.5;
+}
+.links-music {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #dedede;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Set a specific color for each brand */
